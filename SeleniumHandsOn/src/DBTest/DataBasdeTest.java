@@ -49,7 +49,7 @@ public class DataBasdeTest {
 				System.out.println("This is the column name: " +name);
 				
 				
-				//This code will extract all Minimum Salary column details
+				//---This code will extract all Minimum Salary column details
 				while(result1.next())
 				{
 					System.out.println(result1.getString("job_title")+"--->"+result1.getString("min_salary"));
