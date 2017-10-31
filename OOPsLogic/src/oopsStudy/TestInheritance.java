@@ -7,6 +7,7 @@ public class TestInheritance {
 		
 		Inheritance inth = new Inheritance();
 		inth.getname("Mahes1234");
+		inth.name();
 		int age = inth.getage();
 		String NA = inth.getNameAge();
 		String Name = inth.getOriginalname();

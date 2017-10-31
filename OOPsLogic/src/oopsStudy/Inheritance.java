@@ -3,7 +3,13 @@ package oopsStudy;
 public class Inheritance {
 	
 	String name ="Mahesh";
+
 	int age =20;
+	
+	public void name(){
+		System.out.println(Inheritance.this);
+		
+	}
 	
 	public void getname(String name){
 		this.name= name;

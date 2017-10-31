@@ -43,7 +43,7 @@ public class Variables {
 		//String bbS = bb.test2();
 		//System.out.println(bbS);
 		System.out.println(Variables.test2("NUMBER"));
-		System.out.println(aa.equals(aa));
+		System.out.println(aa.equals("aa"));
 	}
 	
 	
